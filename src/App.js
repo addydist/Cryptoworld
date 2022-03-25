@@ -5,7 +5,6 @@ import { Layout, Typography, Space } from "antd";
 
 import { 
   Homepage,
-  Exchanges,
   News,
   Cryptocurrencies,
   CryptoDetails,
@@ -24,9 +23,6 @@ const App = () => (
           <Switch>
             <Route exact path="/">
               <Homepage />
-            </Route>
-            <Route exact path="/exchanges">
-              <Exchanges />
             </Route>
             <Route exact path="/cryptocurrencies">
               <Cryptocurrencies />
