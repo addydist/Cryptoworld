@@ -41,7 +41,7 @@ const App = () => (
           level={5}
           style={{ color: "white", textAlign: "center" }}
         >
-          CryptoWorld
+          Addydist
           <br />© All Right reserved
         </Typography.Title>
         <Space>
